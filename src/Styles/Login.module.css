@@ -25,7 +25,9 @@
   justify-content: center;
   padding-bottom: 20px;
   flex-wrap: wrap;
-  .input{
+}
+
+.input{
       width: 100%;
       height: 30px;
       border-top: none;
@@ -37,7 +39,7 @@
       color: white;
       margin-top: 50px;
   }
-}
+
 
 .input::placeholder {
   color: white;
@@ -48,7 +50,9 @@
   justify-content: center;
   text-align: center;
   margin-top: 30px;
-  & .btnEntrar{
+}
+
+.btnEntrar{
       background-color: white;
       border-radius: 20px;
       font-size: 20px;
@@ -61,12 +65,11 @@
      justify-content: center; 
   }
   
-  & .linkLoginToPerfil{
+.linkLoginToPerfil{
       color: black;
       background-color: white;
       text-decoration: none;
     }
-}
 
 .pLinks{
   margin-top: 20px;
@@ -74,17 +77,17 @@
   text-align: center;
   align-items: center;
   flex-wrap: wrap;
+}
   
-  & p{
+.pLinks p{
       width: 100%;
       padding: 10px;
-      
-      & a{
+}
+
+.pLinks a{
           text-decoration: none;
           color: white;
       }
-  }
-}
 
 .footer{
   display: flex;

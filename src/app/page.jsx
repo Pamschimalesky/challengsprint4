@@ -1,7 +1,6 @@
-import './global.module.css';
+import css from './global.module.css';
 import Link from 'next/link';
-import imgBike from '../assets/img/bicicleta.png';
-import imgLogoPorto from '../assets/img/portoSeguro.png';
+import Image from 'next/image';
 
 
 export default function Page() {
@@ -9,8 +8,8 @@ export default function Page() {
         <>
             <header>
             
-                <div className = "LogoPorto">
-                <img src={imgLogoPorto} alt="Logo da porto"/>
+                <div className = {css.logoPorto}>
+                <Image src="/portoSeguro.png" alt="Logo da porto" width={200} height={50}/>
                 </div>
             </header>
 
@@ -18,29 +17,29 @@ export default function Page() {
 
                 <section>
 
-                <div className="Titulo">
+                <div className={css.titulo}>
                     <h1>Bem vindo a Porto Seguro bike!</h1>
                 </div>
 
-                <div className="img">
-                    <img src={imgBike} alt="Bicicleta"/>
+                <div className={css.img}>
+                    <Image src="/bicicleta.png" alt="Bicicleta" width={150} height={150}/>
                 </div>
 
-                <div className="texto">
+                <div className={css.texto}>
                     <p>Uma solução completa que vai além de um simples seguro para bicicleta, proporcionando proteção e uma ampla gama de serviços para que você possa se aventurar sem preocupações.</p>
                 </div>
 
-                <div className="btn">
-                  <button type="submit" className="btnCotacao"> <Link href="/Chatbot" className='linkCotacao'>Faça uma cotação</Link> </button>
+                <div className={css.btn}>
+                  <button type="submit" className={css.btnCotacao}> <Link href="/Chatbot" className={css.linkCotacao}>Faça uma cotação</Link> </button>
                 </div>
 
                 </section>
 
             </main>
             
-            <footer className="footer">
+            <footer className={css.footer}>
 
-                <div className="Link">
+                <div className={css.link}>
                 <p> <Link href="/Login">Ja sou cliente</Link> </p>
                 </div>
                 

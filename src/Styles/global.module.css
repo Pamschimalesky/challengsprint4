@@ -1,9 +1,17 @@
-.LogoPorto{
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Caudex', serif;
+    background-color: #7BC0FF;
+}
+
+.logoPorto{
     width: 200px;
     height: 50px;
     
 }
-.Titulo{
+.titulo{
     color: #000;
     font-family: Caudex;
     font-size: 1rem;
@@ -51,12 +59,14 @@
       color: black;
       display: flex;
      justify-content: center; 
-     & .linkCotacao{
-        color: black;
-        background-color: white;
-        text-decoration: none;
-     }
+     
 }
+
+.linkCotacao{
+    color: black;
+    background-color: white;
+    text-decoration: none;
+ }
 
 .footer{
     color: #F4F1F1;
@@ -67,15 +77,17 @@
     line-height: normal;
     margin-top: 10%;
     text-decoration: none;
-    & p{
+}
+
+.footer p{
         width: 100%;
         padding: 10px;
-
-        & a{
-            text-decoration: none;
-            color: white;
-        }
-    }
 }
+
+.footer a{
+        text-decoration: none;
+        color: white;
+}
+
 
 

@@ -3,15 +3,9 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    .conteudo {
-        width: 60%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-wrap: wrap;
-        justify-content: flex-start;
+}
 
-        & h1 {
+.header h1{
             display: flex;
             width: 100%;
             color: #000;
@@ -22,7 +16,7 @@
             justify-content: flex-start;
         }
         
-        & .labelStatus{
+.labelStatus{
             display: flex;
             align-items: center;
             justify-content: center;
@@ -30,14 +24,13 @@
             color: #FFF;
             font-size: 30px;
             justify-content: flex-start;
-            margin-left: 20%;
-    
-            & p{
+}
+
+.labeStatus p{
                 width: 30%;
-            }
-        }
+    }
     
-        & .status{
+.status{
             display: flex;
             align-items: center;
             justify-content: end;
@@ -47,46 +40,61 @@
             text-align: right;
             color: white;
             margin-left: 19%;
-
+}
     
-            & h7{
-                width: 100%;
-                background-color: green;
-                padding: 3px 25px;
-                border-radius: 20px;
-            }
+.status h7{
+            width: 100%;
+            background-color: green;
+            padding: 3px 25px;
+            border-radius: 20px;
         }
-    }
 
-    & .perfil{
+.perfil{
         padding-top: 100px;
         padding-right: 10px;
     }
+
+.conteudo {
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    justify-content: flex-start;
 }
 
-
+.conteudo h1{
+    display: flex;
+    width: 100%;
+    color: #000;
+    font-family: Caudex;
+    font-size: 38px;
+    font-weight: 700;
+    margin-left: 16%;
+    justify-content: flex-start;
+}
 
 
 .secao{
     margin-left: 27%;
     width: 60%;
     color: white;
-    
-    & .titulo{
-        display: flex;
-        width: 100%;
-    }
-
-    & .opcoes{
-        margin-left: 4%;
-        width: 100%;
-        font-size: 2em;
-        padding-bottom: 30px;
-    }
-    & .opcaoFinal{
-        margin-left: 4%;
-        width: 100%;
-        font-size: 2em;
-    }
 }
 
+.titulo{
+    display: flex;
+    width: 100%;
+}
+
+.opcoes{
+    margin-left: 4%;
+    width: 100%;
+    font-size: 2em;
+    padding-bottom: 30px;
+}
+
+.opcaoFinal{
+    margin-left: 4%;
+    width: 100%;
+    font-size: 2em;
+}   
