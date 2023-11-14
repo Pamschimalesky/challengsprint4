@@ -12,7 +12,6 @@ export default function Cadastro(){
             </header>
 
             <main>
-
                 <section className={css.cadastro}>
                         <div className={css.box}>
                             <p>Tire uma foto da bicicleta</p>

@@ -10,7 +10,6 @@ export default function Login() {
             <div className={css.head}>
             <Link href="/perfil"> <Image src="/perfil.png" alt="foto perfil" width={150} height={150}/> </Link>
             </div>
-        
 
             <div>
                 <form action="#">

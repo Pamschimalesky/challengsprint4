@@ -14,9 +14,7 @@ export default function Page() {
             </header>
 
             <main>
-
                 <section>
-
                 <div className={css.titulo}>
                     <h1>Bem vindo a Porto Seguro bike!</h1>
                 </div>

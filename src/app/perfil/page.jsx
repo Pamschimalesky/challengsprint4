@@ -12,7 +12,6 @@ export default function Perfil() {
                     <div className={css.labelStatus}>
                     <p>Status do seguro</p>
                     </div>
-
                     <div className={css.status}><h7 >Ativo</h7>  </div>
                 </div>
 
