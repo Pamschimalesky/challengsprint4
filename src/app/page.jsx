@@ -31,7 +31,7 @@ export default function Page() {
                 </div>
 
                 <div className="btn">
-                  <button type="submit" className="btnCotacao"> <Link href="/Chatbot" className='linkCotacao'>Faça uma cotação</Link> </button>
+                  <button type="submit" className="btnCotacao"> <Link href="/Chatbot" className='linkCotacao'>Enviar foto da bicicleta</Link> </button>
                 </div>
 
                 </section>
