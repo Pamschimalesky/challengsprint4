@@ -30,7 +30,7 @@ export default function Page() {
                 </div>
 
                 <div className={css.btn}>
-                  <button type="submit" className={css.btnCotacao}> <Link href="/cadastro" className={css.linkCotacao}>Faça uma cotação</Link> </button>
+                  <button type="submit" className={css.btnCotacao}> <Link href="/cadastro" className={css.linkCotacao}>Tire as fotos e faça uma cotação</Link> </button>
                 </div>
 
                 </section>

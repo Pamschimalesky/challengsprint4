@@ -37,7 +37,7 @@ export default function Cadastro(){
             </main>
             <footer className={css.footer}>
                 <Image src="/sair.png" alt="Sair" width={150} height={150}/>
-                <Link href="/Perfil" className={css.linkFooter}>Sair </Link>
+                <Link href="/" className={css.linkFooter}>Sair </Link>
             </footer>
         </>
         )
