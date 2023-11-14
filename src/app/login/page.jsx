@@ -1,4 +1,4 @@
-import css from './Login.css';
+import css from '../../Styles/Login.module.css';
 import Link from 'next/link';
 import Image from 'next/image';
 
@@ -8,7 +8,7 @@ export default function Login() {
     <>
         <main className={css.container}>
             <div className={css.head}>
-            <Link href="/Perfil"> <Image src="/perfil.png" alt="foto perfil"/> </Link>
+            <Link href="/perfil"> <Image src="/perfil.png" alt="foto perfil" width={150} height={150}/> </Link>
             </div>
         
             <div>
@@ -21,12 +21,12 @@ export default function Login() {
                         </div>
         
                         <div className={css.btn}>
-                        <button type="submit" className={css.btnEntrar}>< Link href="/Perfil"  className={css.linkLoginToPerfil}>Entrar</Link></button>
+                        <button type="submit" className={css.btnEntrar}>< Link href="/perfil"  className={css.linkLoginToPerfil}>Entrar</Link></button>
                         </div>
                         
                         <div className={css.pLinks}>
-                        <p className={css.primeiroLink}> <Link href="/RecuperacaoSenha">Esqueci minha senha</Link> </p>
-                        <p className={css.cadastre}> <Link href="/CadastroPessoa">Cadastre-se</Link> </p>
+                        <p className={css.primeiroLink}> <Link href="/recuperacaoSenha">Esqueci minha senha</Link> </p>
+                        <p className={css.cadastre}> <Link href="/cadastroPessoa">Cadastre-se</Link> </p>
                         </div>
 
                 </form>
@@ -37,7 +37,7 @@ export default function Login() {
 
         <footer className={css.footer}>
 
-            <Image src="/portoSeguro.png" alt="logo porto seguro"/>
+            <Image src="/portoSeguro.png" alt="logo porto seguro" width={450} height={150}/>
         </footer>
 
     </>

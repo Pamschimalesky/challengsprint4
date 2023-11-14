@@ -1,4 +1,4 @@
-import css from './RecuperacaoSenha.css';
+import css from '../../Styles/recuperacaoSenha.module.css';
 import Link from 'next/link';
 import Image from 'next/image';
 
@@ -10,8 +10,8 @@ export default function RecuperacaoSenha() {
     <main className={css.container}>
 
         <div className={css.head}>
-            <Image src="/portoSeguro.png" alt="Logo da porto"/>
-            <Link href="/Perfil"> <Image src="/perfil.png" alt="foto perfil"/> </Link>
+            <Image src="/portoSeguro.png" alt="Logo da porto" width={350} height={80}/>
+            <Link href="/perfil"> <Image src="/perfil.png" alt="foto perfil" width={150} height={150}/> </Link>
         </div>
 
         <div>
@@ -29,7 +29,7 @@ export default function RecuperacaoSenha() {
     </main>
 
     <footer className={css.footer}>
-        <Link href="/Login" className={css.link.footer}><Image src="/sair.png" alt="Sair"/>Sair  </Link>
+        <Link href="/login" className={css.linkFooter}><Image src="/sair.png" alt="Sair" width={150} height={150}/>Sair  </Link>
     </footer>
     </>
   )}

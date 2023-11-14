@@ -1,4 +1,4 @@
-import './Perfil.css';
+import css from '../../Styles/perfil.module.css';
 import Link from 'next/link';
 import Image from 'next/image';
 
@@ -17,7 +17,7 @@ export default function Perfil() {
                 </div>
 
                 <div className={css.perfil}>
-                    <Link href="/Perfil"> <Image src="/perfil.png" alt="foto perfil"/> </Link>
+                    <Link href="/perfil"> <Image src="/perfil.png" alt="foto perfil" width={150} height={150}/> </Link>
                 </div>
             </header>
 
@@ -47,7 +47,7 @@ export default function Perfil() {
             </main>
 
             <footer className={css.footer}>
-                <Image src="/sair.png" alt="Sair"/>
+                <Image src="/sair.png" alt="Sair" width={150} height={150}/>
                 <Link href="/" className={css.linkFooter}>Sair </Link>
             </footer>
         </>

@@ -1,12 +1,6 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Caudex', serif;
-    background-color: #7BC0FF;
-  }
 
-  h2{
+
+.header h2{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -51,5 +45,5 @@
 .linkFooter{
         color: white;
         text-decoration: none;
-        font-size: 0.7em;
+        font-size: 3.0em;
     }

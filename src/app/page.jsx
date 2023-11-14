@@ -1,4 +1,4 @@
-import css from './global.module.css';
+import css from '../Styles/global.module.css';
 import Link from 'next/link';
 import Image from 'next/image';
 
@@ -9,7 +9,7 @@ export default function Page() {
             <header>
             
                 <div className = {css.logoPorto}>
-                <Image src="/portoSeguro.png" alt="Logo da porto" width={200} height={50}/>
+                <Image src="/portoSeguro.png" alt="Logo da porto" width={350} height={50}/>
                 </div>
             </header>
 
@@ -30,7 +30,7 @@ export default function Page() {
                 </div>
 
                 <div className={css.btn}>
-                  <button type="submit" className={css.btnCotacao}> <Link href="/Chatbot" className={css.linkCotacao}>Faça uma cotação</Link> </button>
+                  <button type="submit" className={css.btnCotacao}> <Link href="/cadastro" className={css.linkCotacao}>Faça uma cotação</Link> </button>
                 </div>
 
                 </section>
@@ -40,7 +40,7 @@ export default function Page() {
             <footer className={css.footer}>
 
                 <div className={css.link}>
-                <p> <Link href="/Login">Ja sou cliente</Link> </p>
+                <p> <Link href="/login">Ja sou cliente</Link> </p>
                 </div>
                 
             </footer>

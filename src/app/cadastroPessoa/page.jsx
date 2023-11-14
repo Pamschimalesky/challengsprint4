@@ -1,11 +1,11 @@
-import './cadastroPessoa.css';
+import css from '../../Styles/cadastroPessoa.module.css';
 import Link from 'next/link';
 import Image from 'next/image';
 
 export default function CadastroPessoa() {
     return (
         <main >
-            <header>
+            <header className={css.header}>
                 <h1>Cadastro Proprietário</h1>
                     <h2>Cadastre-se</h2>
             </header>
@@ -53,7 +53,7 @@ export default function CadastroPessoa() {
             </main>
             
             <footer className={css.footer}>
-                <Link href="/" className={css.linkFooter}> <Image src="/sair.png" alt="Sair"/> Sair</Link>
+                <Link href="/" className={css.linkFooter}> <Image src="/sair.png" alt="Sair" width={150} height={150}/> Sair</Link>
             </footer>
 
         </main>
