@@ -11,6 +11,8 @@ import RecuperacaoSenha from './app/RecuperacaoSenha/RecuperacaoSenha.jsx'
 import { createBrowserRouter } from 'react-router-dom'
 import { RouterProvider } from 'react-router-dom'
 
+
+
 const router = createBrowserRouter([
   {
     path: "/",
