@@ -11,7 +11,7 @@ export default function Login() {
             <Link href="/perfil"> <Image src="/perfil.png" alt="foto perfil" width={150} height={150}/> </Link>
             </div>
         
-        
+
             <div>
                 <form action="#">
                     <div className={css.divInput}>
@@ -37,6 +37,7 @@ export default function Login() {
         </main>
 
         <footer className={css.footer}>
+
 
             <Image src="/portoSeguro.png" alt="logo porto seguro" width={450} height={150}/>
         </footer>
