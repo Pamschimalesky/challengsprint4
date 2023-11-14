@@ -28,11 +28,8 @@ export default function Login() {
                         <p className={css.primeiroLink}> <Link href="/RecuperacaoSenha">Esqueci minha senha</Link> </p>
                         <p className={css.cadastre}> <Link href="/CadastroPessoa">Cadastre-se</Link> </p>
                         </div>
-
                 </form>
-                
             </div>
-            
         </main>
 
         <footer className={css.footer}>
