@@ -6,21 +6,20 @@ import Image from 'next/image';
 export default function RecuperacaoSenha() {
   return (
     <>
-
     <main className={css.container}>
 
         <div className={css.head}>
-            <Image src="/portoSeguro.png" alt="Logo da porto" width={350} height={80}/>
+            <Image src="/portoSeguro.png" alt="Logo da porto" width={350} height={80}/> 
             <Link href="/perfil"> <Image src="/perfil.png" alt="foto perfil" width={150} height={150}/> </Link>
         </div>
 
-        <div>
-          <h1>Recuperação de Senha</h1>
+        <div> 
+          <h1>Recuperação de Senha</h1> 
             <form action="#">
-                <div className={css.divInput}>
+                <div className={css.divInput}> 
                     <input type="text"  className={css.input}  name="txtRecSenha" id="idRecSenha" placeholder="Recuperação de Senha" />
                 </div>
-                  <div className={css.btn}>
+                  <div className={css.btn}> 
                     <button type="submit" className={css.btnReenviar}>Reenviar Senha</button>
                   </div>
             </form>
